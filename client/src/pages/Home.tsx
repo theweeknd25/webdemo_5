@@ -145,7 +145,7 @@ export default function Home() {
         <section id="approach" className="guidance" aria-labelledby="guidance-title">
           <div className="guidance-image">
   <img
-    src="/assets/images/fif_and_six.webp"
+    src={`${import.meta.env.BASE_URL}assets/images/fif_and_six.webp`}
     alt="Warm, modern apartment living room"
     loading="lazy"
   />

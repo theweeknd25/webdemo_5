@@ -10,7 +10,7 @@ hero: {
   title: "Find a place\nthat makes room\nfor your life.",
   description:
     "Personal property guidance for Pune buyers who want more clarity before the site visit.",
-  image: "/assets/images/hero.webp",
+  image: `${import.meta.env.BASE_URL}assets/images/hero.webp`,
 },
 
 projects: [
@@ -24,7 +24,7 @@ projects: [
     type: "A quieter kind of city living",
     description:
       "Light-filled homes shaped around a planted courtyard, close to Baner’s everyday conveniences.",
-    image: "/assets/images/second.webp",
+    image: `${import.meta.env.BASE_URL}assets/images/second.webp`,
   },
   {
     id: "hinjewadi-terraces",
@@ -36,7 +36,7 @@ projects: [
     type: "Work, arrive, exhale",
     description:
       "Thoughtful layouts and green outlooks for a home that stays close to the rhythm of West Pune.",
-    image: "/assets/images/thi.webp",
+    image: `${import.meta.env.BASE_URL}assets/images/thi.webp`,
   },
   {
     id: "kharadi-house",
@@ -48,7 +48,7 @@ projects: [
     type: "Space that holds its value",
     description:
       "Generous family homes near Pune’s eastern business district, selected for daily ease and long-view value.",
-    image: "/assets/images/four.webp",
+    image: `${import.meta.env.BASE_URL}assets/images/four.webp`,
   },
 ],
   areas: [

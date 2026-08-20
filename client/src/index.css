@@ -129,7 +129,7 @@ a { color: inherit; text-decoration: none; }
 .need:hover .need-icon, .need.is-active .need-icon { opacity: 1; transform: translateX(0); }
 
 .place { position: relative; min-height: 48rem; padding: clamp(4.5rem, 7vw, 7rem) clamp(1.25rem, 7vw, 7rem); color: white; overflow: hidden; }
-.place::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(19,35,43,.88), rgba(19,35,43,.48) 52%, rgba(19,35,43,.11) 100%), url("/assets/images/sev.webp"); background-position: center; background-size: cover; transform: scale(1.02); }
+.place::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(19,35,43,.88), rgba(19,35,43,.48) 52%, rgba(19,35,43,.11) 100%), url("/webdemo_5/assets/images/sev.webp"); background-position: center; background-size: cover; transform: scale(1.02); }
 .place-content { position: relative; z-index: 1; max-width: 45rem; }
 .place h2 { max-width: 10ch; margin: .9rem 0 1.5rem; font-size: clamp(3.25rem, 6vw, 6.5rem); line-height: .91; }
 .place-copy { max-width: 26rem; margin: 0; color: rgba(255,255,255,.82); font-size: 1.02rem; line-height: 1.62; }
