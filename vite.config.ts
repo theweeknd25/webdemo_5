@@ -11,6 +11,7 @@ const plugins = [
 ];
 
 export default defineConfig({
+  base: "/webdemo_5/",
   plugins,
 
   resolve: {
